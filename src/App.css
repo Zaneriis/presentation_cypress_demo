@@ -1,0 +1,27 @@
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > *{
+  margin-top: 20px!important;
+}
+
+header img{
+  width: 100%;
+}
+
+.container{
+  background-color: aliceblue;
+  height: 100vh;
+}
+
+footer img{
+  width: 50%;
+  max-width: 400px;
+}
+footer{
+  margin-top:50px;
+  display: flex;
+  justify-content: center;
+}

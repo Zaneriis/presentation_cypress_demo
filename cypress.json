@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "viewportWidth": 1500,
+  "viewportHeight": 660,
+  "integrationFolder":"cypress/integration",
+  "pluginsFile":	"cypress/plugins/index.js",
+  "screenshotsFolder":	"cypress/screenshots",
+  "screenshotOnRunFailure":	true,
+  "env": {
+    "apiUrl": "https://cataas.com/cat"
+  }
+}
+
+
+
