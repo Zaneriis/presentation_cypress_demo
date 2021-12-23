@@ -7,6 +7,9 @@ const remplirInput = (username,email,age) => {
 const urlBack = "https://cataas.com/cat"
 
 describe("Description des tests en lien avec le formulaire",()=>{
+  before(()=>{
+    console.log("Lancement des tests")
+  })
 
   beforeEach(()=>{
     cy.intercept(urlBack, { fixture: 'doca.png' })
